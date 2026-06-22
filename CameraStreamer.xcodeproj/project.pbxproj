@@ -48,16 +48,6 @@
 			path = CameraStreamer;
 			sourceTree = "<group>";
 		};
-		1F43AC6F2FDD2A43006638D3 /* CameraStreamerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CameraStreamerTests;
-			sourceTree = "<group>";
-		};
-		1F43AC792FDD2A43006638D3 /* CameraStreamerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CameraStreamerUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				1F43AC582FDD2A40006638D3 /* CameraStreamer */,
-				1F43AC6F2FDD2A43006638D3 /* CameraStreamerTests */,
-				1F43AC792FDD2A43006638D3 /* CameraStreamerUITests */,
 				1F43AC572FDD2A40006638D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				1F43AC6E2FDD2A43006638D3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1F43AC6F2FDD2A43006638D3 /* CameraStreamerTests */,
-			);
 			name = CameraStreamerTests;
 			packageProductDependencies = (
 			);
@@ -166,9 +151,6 @@
 			dependencies = (
 				1F43AC782FDD2A43006638D3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1F43AC792FDD2A43006638D3 /* CameraStreamerUITests */,
-			);
 			name = CameraStreamerUITests;
 			packageProductDependencies = (
 			);
@@ -184,7 +166,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2710;
 				TargetAttributes = {
 					1F43AC552FDD2A40006638D3 = {
 						CreatedOnToolsVersion = 16.4;
@@ -397,6 +379,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -454,6 +437,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
